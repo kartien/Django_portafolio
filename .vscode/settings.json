@@ -1,4 +1,4 @@
 {
     "python.formatting.provider": "black",
-    "workbench.iconTheme": "vscode-great-icons"
+    "workbench.iconTheme": "material-icon-theme"
 }

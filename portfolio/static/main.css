@@ -1,10 +1,27 @@
 body{
-    background:  #090909;
+    background: url(images/fondocss.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    
 }
 
-.bg-black{
-    background: #000;
+body:before{
+    filter: blur(2px);
+    content: "";
+    position: absolute;
+    height: 20%; 
+    width: 20%;
+    background-color: #35997C;
+    z-index: -1;
+    -webkit-transform: scale(5);
+    -webkit-transform-origin: top left;
+
 }
+
+
+
 
 .card-project:hover{
     border: 1px solid #fff;
