@@ -6,7 +6,7 @@ Use the package manager pip to install requirements.txt
 Create a virtual environment
 
 ```bash
-    python -m virtualenv venv
+    python -m venv venv
 ```
 
 
@@ -17,7 +17,11 @@ git clone https://github.com/kartien/Django_portafolio.git
 
 Second Command
 ```bash 
-pip install requirements.txt
+pip install -r requirements.txt
+```
+Third command 
+```bash
+    python manage.py migrate
 ```
 
 ## Screenshots
