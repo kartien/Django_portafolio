@@ -6,9 +6,14 @@ Use the package manager pip to install requirements.txt
 Create a virtual environment
 
 ```bash
-    python -m venv venv
+    python -m venv env
 ```
 
+## Replit 
+
+```bash
+https://replit.com/@KevinRamon/Djangoportafolio?v=1
+```
 
 First Command 
 ```bash
