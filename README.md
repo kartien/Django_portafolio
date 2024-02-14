@@ -26,9 +26,13 @@ pip install -r requirements.txt
 ```
 Third command 
 ```bash
-    python manage.py migrate
+python manage.py migrate
 ```
-
+## Create post on blog
+```bash
+python manage.py createsuperuser "user"
+```
+## Create blog posts from the django admin
 ## Screenshots
 ![Image](/docs/cap1.png)
 
